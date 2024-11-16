@@ -50,5 +50,5 @@ frontend www-https
 backend web-backend
         balance roundrobin
         redirect scheme https code 301 if !{ ssl_fc }
-        server 6310-web-01 54.85.169.157:80 check
-        server 6310-web-02 54.227.112.222:80 check
+        server 6329-web-01 54.167.52.204:80 check
+        server 6329-web-02 34.228.244.169:80 check
